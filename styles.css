@@ -27,8 +27,8 @@ a:active{text-decoration: none;}
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .navLogo {
     font-size: 1.4rem;
@@ -45,35 +45,46 @@ a:active{text-decoration: none;}
 
 
 .banner{
-    margin-top: 3rem;
-    height: 20vh;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-top: 2.5rem;
+    height: 120px;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: space-between;
 }
 .bannerLeft{
-    width: 50%;
+    width: 45%;
+    height: 80px;
     float: left;
 }
-.bannerContent h1{
-    font-size: 1.3rem;
+.bannerLeft h1{
+    font-size: 1.7rem;
     font-weight: 900;
     color: #F9FAF8;
 }
-.bannerContent p{
+.bannerLeft p{
     font-size: .8rem;
     color: rgb(179, 176, 176);
 }
 .bannerButton{
-
+    color: white;
+    background-color: #3882F6;
+    width: 50px;
+    border:none;
+    color:white;
+    text-align: center;
+    font-size: .8rem;
+    padding: 2px;
+    margin-top: 5px;
+    border-radius: 3px;
 }
 .bannerRight {
-    width: 50%;
+    width: 45%;
     float: right;
 }
 .bannerRight img{
     overflow: hidden;
-    width: 40%;
-    height: auto;
+    width: 100%;
+    height: 80px;
 }
 .boxes-container{
     width: 100%;
