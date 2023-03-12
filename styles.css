@@ -12,3 +12,36 @@ a:link{text-decoration: none;}
 a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 a:active{text-decoration: none;}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #1F2937;
+    min-height: 100vh;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navLogo {
+    font-size: 2.4rem;
+    color: #F9FAF8;
+    float: left;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar a{
+    color: #E5E7EB;
+    font-size: 0.7rem;
+}
+.banner{
+
+}
+.bannerContent{
+
+}
+.bannerButton{
+    
+}
