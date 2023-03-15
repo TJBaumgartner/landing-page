@@ -141,3 +141,46 @@ a:active{text-decoration: none;}
 .quote h3{
     text-align: right;
 }
+.sign-up{
+    width: 100%;
+    background-color: white;
+    height: 150px;
+    padding-top: 50px;
+}
+.sign-up-content{
+    width: 40%;
+    height: 50px;
+    background-color: #3882F6;
+    margin: auto;
+    padding: 20px;
+    border-radius: 3px;
+}
+.sign-up-text{
+    float: left;
+}
+.sign-up-button{
+    margin-right: 20px;
+    float: right;
+}
+.sign-up-content h1{
+    color: white;
+}
+.sign-up-content p{
+    color: #E5E7EB;
+}
+.sign-button{
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer{
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top: 15px;
+}
